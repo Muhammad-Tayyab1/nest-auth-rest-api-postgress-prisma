@@ -4,6 +4,7 @@ import { OrganizationService } from './organization.service';
 import { CreateOrganizationDto } from './dto/create-organization.dto';
 import { UpdateOrganizationDto } from './dto/update-organization.dto';
 
+//
 @ApiTags('Organizations')  // This will create a section in Swagger UI
 @Controller('organizations')
 export class OrganizationController {

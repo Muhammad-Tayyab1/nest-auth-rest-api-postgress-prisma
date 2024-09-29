@@ -19,6 +19,7 @@ lerna-debug.log*
 /.nyc_output
 
 # IDEs and editors
+temp_auto_push.bat
 /.idea
 .project
 .classpath
@@ -30,11 +31,6 @@ lerna-debug.log*
 # IDE - VSCode
 .vs
 .vs/*
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
 # AWS deply yml
 *.yml
@@ -46,3 +42,5 @@ lerna-debug.log*
 
 .env
 .env.prod
+.gitignore
+branch_structure.json
