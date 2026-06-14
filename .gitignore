@@ -30,11 +30,6 @@ lerna-debug.log*
 # IDE - VSCode
 .vs
 .vs/*
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
 # AWS deply yml
 *.yml
@@ -46,3 +41,7 @@ lerna-debug.log*
 
 .env
 .env.prod
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
